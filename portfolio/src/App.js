@@ -1,9 +1,10 @@
-function App() {
-  return (
-    <div className="App">
-      <p>Hello</p>
-    </div>
-  );
-}
+import Home from './components/home';
 
-export default App;
+function app() {
+    return (
+      <Home />
+    );
+  }
+  
+  export default app;
+  
